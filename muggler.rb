@@ -3,7 +3,7 @@ require 'formula'
 class Muggler < Formula
   homepage 'https://github.com/divoxx/muggler'
   url 'https://github.com/divoxx/muggler/archive/v0.2.1.tar.gz'
-  sha1 'dab82fb6ba5fa10faf71b9a56bf768173a6b0930'
+  sha1 '39657432ca10dc230ba3672b028f58e4df536b6a'
 
   def install
     system "cp -R * \"#{prefix}/\""
